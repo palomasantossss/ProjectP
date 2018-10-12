@@ -1,25 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> <html>
 <head>
-<title> PALOMAS WORD SEARCH</title>  <!-- name of  the tab --> 
+<title> PALOMAS US CURRENCY MATCHER</title>
+<!-- name of  the tab -->
 
 <style type="text/css">
   body {
-    padding-left: 11em;
-    color: purple;
-    background-color: #d8da3d }
+    text-align: center;
+    color: blanchedalmond ;
+    background-color: orange; }
   </style>
-</head>
 
 
 <body>
-<!-- Site navigation menu --> <ul class="navbar">
-<ul>
+<h1 style= "
+background-color: #a8eff7;
+padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FF5722;
+    font-family: sans-serif;
+    border-width: 5px;
+    border-color: #03A9F4;
+    border-style: double;" > WHAT IS THE PRICE? </h1>
 
-<!-- Main content -->
-<h1> GOAL: to find my favorite words </h1>
+<p id="demo"> </p>
 
-<p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere&hellip;
-<p>There should be more here, but I don't know what yet.
-<!-- Sign and date the page, it's only polite! --> <address>Made 12 October 2018<br>
-by myself.</address>
+
+<script type="text/javascript">
+function myfunction() {
+var first = document.getElementById("textbox1").value;
+var second = 7.85;
+var answer =parseFloat(first)/ parseFloat(second);
+
+textbox3.value=answer;
+
+ }
+</script>
+
+<body>
+<!-- builds the fields  and button -->
+
+
+
+HKD= <input type="text" name="textbox1" id="textbox1" />
+<input type="submit" name="button" id="button1" onclick="myfunction()" value="CONVERT" />
+<br/>
+
+THE ITEM IS
+<input  style= " margin-top: 20px; " type="text" name="textbox3.value" id="textbox3"  />
+USD
+
+
+
+<!-- Sign and date the page -->
+<address style= "
+padding-top: 20px;
+padding-bottom:20px;" >Made 12 October 2018<br>
+by Paloma Santos </address>
+
 </body> </html>
